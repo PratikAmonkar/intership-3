@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Wordle</title>
+    <link rel="stylesheet" href="index.css" />
+    <script type="text/javascript" src="index.js"></script>
+  </head>
+  <body>
+    <h1 id="title">Wordle</h1>
+    <br />
+    <div class="main_section">
+      <div id="board"></div>
+      <div id="anot_section">
+        <div class="color_boxes">
+          <div id="color1" class="color_box">
+            <p>Alphabet is in correct position</p>
+          </div>
+          <div id="color2" class="color_box">
+            <p>Guess alphabet is correct but at wrong place</p>
+          </div>
+          <div id="color3" class="color_box">
+            <p>Guess alphabet is incorrect</p>
+          </div>
+        </div>
+        <div class="hint_section">
+          <h1>Hint</h1>
+          <p id="cust_para"></>
+        </div>
+      </div>
+    </div>
+    <br />
+    <h1 id="answer"></h1>
+    <div id="myModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <h3 id="modal_para"></h3>
+      </div>
+    </div>
+  </div>
+  </body>
+</html>
